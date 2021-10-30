@@ -1,0 +1,103 @@
+body {
+    background-image: url("assets/blue-water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0%;
+}
+
+div {
+    position: relative;
+    width: 30%;
+    background-color: rgba(51, 255, 194, 0.904);
+    float: right;
+    padding: 5%;
+    height: 100vh;
+    padding-top: 15vh;
+}
+
+input,
+select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #3e88ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 25%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+p {
+    font-family: 'Volkhov', serif;
+    font-size: 1.7em;
+    text-shadow: 2px 2px #ccc;
+}
+
+input:hover {
+    background-color: #f3f3f3;
+}
+
+.animated {
+    margin-top: 12vw;
+    margin-left: 22vh;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+#logo {
+    height: 50vh;
+    width: 33vw;
+}
+
+#Incorrect {
+    color: red;
+}

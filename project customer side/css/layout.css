@@ -1,0 +1,200 @@
+body {
+    margin: 0%;
+}
+
+#navbar {
+    background-image: linear-gradient(to right, rgb(0, 178, 159), rgb(21, 57, 73));
+}
+
+#logo {
+    width: 18vw;
+    height: 19vh;
+    margin-left: 5px;
+}
+
+#account {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+#product_image {
+    float: left;
+}
+
+h1 {
+    font-family: 'Volkhov', serif;
+    font-size: 3em;
+    margin: 15px;
+}
+
+h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 2.3em;
+    margin: 15px;
+}
+
+#price_div {
+    font-family: 'Volkhov', serif;
+    font-size: 2.3em;
+    margin: 15px;
+}
+
+#price {
+    color: #118c4f;
+    display: inline;
+    font-weight: 900;
+}
+
+#lpincode {
+    font-family: 'Volkhov', serif;
+    font-size: 2em;
+    margin: 10px;
+}
+
+input[type=text] {
+    font-family: 'Volkhov', serif;
+    font-size: 1em;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+input:hover {
+    background-color: #f3f3f3;
+}
+
+input[type=number] {
+    font-family: 'Volkhov', serif;
+    font-size: 1em;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+#check {
+    margin: 10px;
+    width: 200px;
+    padding: 14px 20px;
+    border: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: 'Volkhov', serif;
+    font-size: 0.85em;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #3e88ff;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: 'Volkhov', serif;
+    font-size: 2.3em;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #000046 0%, #1CB5E0 51%, #000046 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type=submit]:disabled {
+    width: auto;
+    background-color: #d4d4d4;
+    color: rgb(82, 82, 82);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: 'Volkhov', serif;
+    font-size: 2.3em;
+}
+
+h3 {
+    margin: 0%;
+    font-family: 'Volkhov', serif;
+    font-size: 1.5em;
+}
+
+#address {
+    font-family: 'Volkhov', serif;
+    font-size: 1em;
+    margin: 0px;
+    width: 50%;
+    height: 20vh;
+}
+
+#quantity {
+    font-family: 'Volkhov', serif;
+    font-size: 1em;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+}
+
+#radio_btn {
+    display: inline;
+    font-family: 'Volkhov', serif;
+    font-size: 1.75em;
+    margin: 10px;
+}
+
+#payment_mod {
+    width: 3vw;
+    height: 3vh;
+}
+
+#checkout_table {
+    display: inline;
+    float: left;
+    width: 45vw;
+    font-size: 2em;
+    background-color: #d4d4d4;
+    background-origin: padding-box;
+    margin: 1.5%;
+    border: 5px solid #d4d4d4;
+}
+
+#checkout_table th,
+td {
+    border-bottom: 5px solid #b1b0b0;
+}
+
+#confirm_order {
+    float: left;
+    margin-left: 2%;
+}
