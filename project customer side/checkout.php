@@ -119,7 +119,7 @@ function send_mailself(){
     $body="Dear customer,Your order has been confirmed and it will be delivered to you
     before 8:00pm today your order id:'{$orddata['order_id']}' please keep amount: RS $fprice ready . orders after 8.00 pm will be delivered tommrrow ";
     $body.="Thank you for shopping";
-    $headers="From: clashofshah007@gmail.com";
+    $headers="From: email@gmail.com";
     
     if(mail($to,$subject,$body,$headers)) {
        echo "Message sent successfully...";
