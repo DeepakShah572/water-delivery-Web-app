@@ -28,8 +28,8 @@ include 'config.php';
         <input type="submit" value="Login" name="login"/>
         <?php
         if($_POST){
-            $uname=$_POST["username"];
-            $pass=$_POST["password"];
+            $uname=$_POST["username"];// edit this part of code add your own users credentials
+            $pass=$_POST["password"];// so that while entering credentials not any common user will be able to login in or create a new table for admin in data base and connect this page with that table to gain access.
             $sql="SELECT * FROM customers WHERE  password='$pass' AND  phone_number='$uname'";
             $result=mysqli_query($conn,$sql);
             if(mysqli_num_rows($result)==1){
